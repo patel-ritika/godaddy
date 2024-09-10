@@ -1,0 +1,205 @@
+.work img{
+    height: 500px;
+    width: 500px;
+    padding-right: 860px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.work h3{
+    text-align: left;
+    padding-left: 150px;
+    margin-top: -450px;
+    color: white;
+    font-size: 30px;
+}
+
+.fruit img{
+    width: 350px;
+    height: 200px;
+    padding-right: 700px;
+    margin-top: 100px;
+}
+
+.com button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.com{
+    padding-right: 990px;
+    margin-top: -200px;
+}
+
+.banner2 img{
+    width: 450px;
+    height: 510px;
+    border-radius: 20px;
+}
+
+.banner2{
+    padding-left: 150px;
+    margin-top: -340px;
+}
+
+.banner2 h3{
+    margin-top: -400px;
+    color: white;
+    font-size: 30px;
+}
+
+.banner2 button{
+    width: 250px;
+    padding-left: 15px;
+    margin-top: 80px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: gray;
+}
+
+.banner3 img{
+    width: 400px;
+    height: 500px;
+    padding-left: 1050px;
+    margin-top: -390px;
+    border-radius: 20px;
+}
+
+.banner3 h2{
+    padding-left: 1100px;
+    margin-top: -350px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.banner4 img{
+    height: 450px;
+    width: 500px;
+    margin-top: 150px;
+    padding-right: 850px;
+    border-radius: 20px;
+}
+
+.banner4 h2{
+    text-align: left;
+    padding-left: 150px;
+    margin-top: -300px;
+}
+
+.banner5 img{
+    width: 850px;
+    padding-left: 550px;
+    margin-top: -390px;
+}
+
+.banner5 h2{
+    text-align: left;
+    padding-left: 650px;
+    font-size: 30px;
+    margin-top: -300px;
+}
+
+.real{
+    background-color: #D8EFEF;
+    height: 300px;
+}
+
+.perfect {
+    margin-top: 300px;
+}
+
+.perfect h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.perfect h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.perfect input{
+    width: 660px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.search button{
+    height: 62px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+}
+
+.search{
+    padding-left: 570px;
+    margin-top: -63px;
+}
+
+.suraiya{
+    margin-top: 100px;
+}
+
+.suraiya img{
+    height: 470px;
+    width: 1520px;
+}
+
+.suraiya h3{
+    text-align: left;
+    padding-left: 70px;
+    margin-top: -430px;
+    font-weight: 500;
+}
+
+.suraiya h2{
+    padding-left: 550px;
+    margin-top: -100px;
+}
+
+.suraiya h2 span{
+    font-weight: 200;
+    color: lightslategray;
+}
+
+.suraiya h1{
+    font-family: "Playfair Display", serif;
+    padding-left: 650px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.suraiya p{
+    text-align: left;
+    padding-left: 950px;
+    font-weight: 500;
+}
+
+.get button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 4px;
+}
+
+.get{
+    padding-left: 470px;
+    margin-top: 50px;
+}
+
+.get button:hover{
+    transform: scale(1.1);
+}

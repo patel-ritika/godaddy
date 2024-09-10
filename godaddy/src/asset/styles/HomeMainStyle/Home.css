@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+}
+
+.header2{
+    margin-top: 20px;
+    border: 1px gray solid;
+    height: 70px;
+    width: 1100px;
+    margin-left: 70px;
+    align-items: center;
+    padding-left: 50px;
+    display: flex;
+    color: gray;
+    box-sizing: border-box;
+    font-size: 20px;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.header2 button{
+   height: 50px;
+   width: 150px;
+   margin-left: 600px;
+   font-weight: 600;
+   background-color: #09757A;
+   color: white;
+   border-color: gray;
+   border-radius: 10px;
+}
+
+.header2 button:hover{
+    background-color: #00838C;
+}
+
+.bt1{
+    padding-left: 1150px;
+    margin: -20px;
+}
+
+.bt1 button{
+    width: 300px;
+    height: 70px;
+    margin-top: -100px;
+    padding-top: -10px;
+    background-color: lightgray;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.bt1 h3{
+    padding-right: 205px;
+    padding-top: 20px;
+    margin-top: -10px;
+    color: gray;
+    font-family: "Playfair Display", serif;
+}
+
+.bt1 h4{
+    margin-bottom: 60px;
+    padding-bottom: -30px;
+    padding-left: 20px;
+    margin-top: -30px;
+}
+
+.bt1 h5{
+    padding-bottom: 100px;
+    margin-top: -50px;
+    padding-left: 40px;
+    color: gray;
+    font-size: 13px;
+}
+
+.bt1 button:hover{
+    background-color: white;
+}
+
+.bt1 h4:hover{
+    color: #00838C;
+}
+
+.main{
+    padding-top: 80px;
+    padding-right: 400px;
+}
+
+.main img{
+    width: 1000px;
+    border-radius: 4%;
+    height: 500px;
+    padding-left: 20px;
+}
+
+.btn{
+    margin-top: -130px;
+    padding-right: 950px;
+}
+
+.try-domain-button{
+    background-color: black;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.try-domain-button:hover .arrow-icon{
+    display: inline-block;
+    transform: translateX(5px);
+}
+
+.arrow-icon{
+    display: none;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.btn1{
+    padding-left: 1050px;
+    margin-top: -160px;
+}
+
+.find{
+    height: 500px;
+    width: 350px;
+    margin-top: -300px;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.find h2{
+    line-height: 35px;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: white;
+}
+
+.find button{
+    background-color: skyblue;
+    border-radius: 5%;
+}
+
+.try{
+    background-color: white;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    margin-top: 40px;
+}
+
+.try:hover .arrow-icon{
+    display: inline-block;
+    transform: translateX(5px);
+}
+
+.arrow-icon{
+    display: none;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+    

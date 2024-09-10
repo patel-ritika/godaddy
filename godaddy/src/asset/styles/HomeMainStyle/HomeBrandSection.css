@@ -1,0 +1,34 @@
+.columns-section{
+    display: flex;
+}
+
+.columns-section .column{
+    border: 1px white solid;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.columns-section .column:hover{
+    background-color: lightgrey;
+}
+
+.main-image-section img{
+   width: 1000px;
+   height: 450px;
+}
+
+.try-domain-button{
+    margin-top: 50px;
+}
+
+.try-domain-button:hover .arrow-icon{
+    display: inline-block;
+    transform: translateX(5px);
+}
+
+.arrow-icon{
+    display: none;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
