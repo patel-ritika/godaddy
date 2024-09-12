@@ -1,0 +1,91 @@
+/* Comparison table container */
+.comparison-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table header styling */
+  thead th {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Table row content styling */
+  tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Centered content for plan columns */
+  .center {
+    text-align: center;
+  }
+  
+  /* Row content and button */
+  .row-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Button styling for the expand/collapse arrow */
+  .arrow-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #0078d4;
+  }
+  
+  .arrow-btn:hover {
+    color: #005a9e;
+  }
+  
+  /* Expanded row styling */
+  .expanded-row {
+    background-color: #f9f9f9;
+    font-style: italic;
+    padding: 15px;
+  }
+  
+  /* Row separator */
+  tbody hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .arrow-btn {
+      font-size: 14px;
+    }
+  
+    thead th, tbody td {
+      padding: 10px;
+    }
+  
+    .row-content {
+      font-size: 13px;
+    }
+  }
+  

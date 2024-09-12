@@ -1,0 +1,73 @@
+.microsoft365-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-image img {
+    height: 400px; /* Keeps the aspect ratio */
+    width: 90%; /* Adjust width as necessary */
+    border-radius: 20px;
+  }
+  
+  .right-content {
+    width: 55%; /* Adjust width as necessary */
+  }
+
+  .right-content p{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .features-list {
+    list-style: none;
+    
+  }
+  
+  .features-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+  }
+  
+  .list-icon {
+    margin-right: 10px;
+  }
+  
+  .pricing-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow-icon {
+    margin-left: 10px;
+  }
+  
+  .rating-section {
+    margin-top: 20px;
+  }
+  
+  .stars {
+    display: flex;
+  }
+  
+  .star-icon {
+    color: gold;
+  }
+  
+  .view-all-link {
+    display: block;
+    margin-top: 10px;
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
