@@ -1,0 +1,42 @@
+.columns-section{
+    display: flex;
+}
+
+.home-hosting-marketing h1{
+     font-size: 40px;
+}
+
+.columns-section .column{
+    border: 1px white solid;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.columns-section .column h2{
+    padding-left: 60px;
+}
+
+.columns-section .column:hover{
+    background-color: lightgrey;
+}
+
+.main-image-section img{
+   width: 1000px;
+   height: 550px;
+}
+
+.try-domain-button{
+    margin-top: 50px;
+}
+
+.try-domain-button:hover .arrow-icon{
+    display: inline-block;
+    transform: translateX(5px);
+}
+
+.arrow-icon{
+    display: none;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}

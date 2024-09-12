@@ -22,7 +22,7 @@ const Header = () => {
                     <li><Link to="/email">Email</Link></li>
                     <li><a href="#Security">Security <FontAwesomeIcon icon={faAngleDown} /></a></li>
                     <li><a href="#Marketing">Marketing <FontAwesomeIcon icon={faAngleDown} /></a></li>
-                    <li><a href="#GoDaddy Airo">GoDaddy Airo</a></li>
+                    <li><Link to="/godaddyairo">GoDaddy Airo</Link></li>
                     <li><a href="#Pricing">Pricing</a></li>
                     <li><a href="#Contact Us">Contact Us</a></li>
                     <li><a href="#Sign In">Sign In <FontAwesomeIcon icon={faAngleDown} /></a></li>

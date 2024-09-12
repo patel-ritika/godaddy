@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import HomeMain from './components/HomeMain';
 import Footer from './components/Footer/Footer';
 import Email from './components/Email';
-
+import GoDaddyAiro from './components/GodaddyAiro';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeMain />} />
           <Route path="/email" element={<Email />} />
-          
+          <Route path="/godaddyairo" element={<GoDaddyAiro />} />
         </Routes>
 
         <Footer/>
