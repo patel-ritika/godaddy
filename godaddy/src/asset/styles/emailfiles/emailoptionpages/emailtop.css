@@ -1,0 +1,56 @@
+/* emailtop.css */
+
+.email-option-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px; /* Space between image and content */
+  }
+  
+  .email-option-img {
+    width: 650px; /* Adjust size of alex image */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .email-option-content {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .email-option-content h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+  
+  .email-option-content ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .email-option-content li {
+    margin-bottom: 10px;
+  }
+  
+  .try-domain-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .try-domain-button:hover {
+    background-color: black;
+  }
+  
+  .arrow-icon {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  

@@ -1,0 +1,99 @@
+/* Container for the whole section */
+.email-container {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  /* Styling for the image on the left side */
+  .email-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Center image horizontally */
+  }
+  
+  .email-image img {
+    width: 700px; /* Make sure the image is responsive */
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+  }
+  
+  /* Styling for the content on the right side */
+  .email-content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  /* Header and paragraph styles */
+  .email-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .email-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Features section */
+  .features {
+    margin-bottom: 20px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .feature-icon {
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  /* Button styling */
+  .pricing-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .pricing-button .arrow-icon {
+    margin-left: 10px;
+  }
+  
+  /* Rating section */
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .star-icon {
+    color: #ffd700; /* Gold color for stars */
+    margin-right: 5px;
+  }
+  
+  .rating-text {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .view-all-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  

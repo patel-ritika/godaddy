@@ -8,7 +8,6 @@ import Email from './components/Email';
 
 
 
-
 function App() {
   return (
     <div className='App'>
@@ -18,7 +17,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomeMain />} />
-          <Route path="/email" element={<Email />} /> 
+          <Route path="/email" element={<Email />} />
+          
         </Routes>
 
         <Footer/>

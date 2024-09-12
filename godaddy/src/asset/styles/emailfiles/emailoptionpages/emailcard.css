@@ -1,0 +1,90 @@
+/* emailcard.css */
+
+/* Container for all the email plan cards */
+.email-plans-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between the cards */
+    gap: 20px; /* Adds space between the cards */
+    flex-wrap: wrap; /* Ensures the cards wrap if the screen is smaller */
+    padding: 20px;
+  }
+  
+  /* Individual email plan cards */
+  .email-plan-card {
+    flex: 1 1 22%; /* Flex-grow, flex-shrink, and flex-basis for responsive sizing */
+    background-color: white;
+    border: 1px solid #ccc; /* Gray border for the boxes */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for the cards */
+  .email-plan-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+  }
+  
+  /* Plan title */
+  .email-plan-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  /* Description and pricing information */
+  .email-plan-card p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .save-discount {
+    color: #d9534f; /* Red color for the discount */
+    font-weight: bold;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .pricing .new-price {
+    font-size: 24px;
+    color: #007bff; /* Blue color for the new price */
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  .add-to-cart {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: black;
+  }
+  
+  /* FontAwesome icons styling */
+  .email-plan-card p .fa-icon {
+    margin-right: 10px;
+  }
+  
+  /* Microsoft icons in each card */
+  .microsoft-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .microsoft-icons i {
+    color: #666;
+  }
+  
+  

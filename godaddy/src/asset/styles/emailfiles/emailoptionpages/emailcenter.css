@@ -1,0 +1,49 @@
+/* emailcenter.css */
+
+.email-center-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .email-center-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .email-center-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .email-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: black;
+  }
+  
+  .arrow-icon {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
