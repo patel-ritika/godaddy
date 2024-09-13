@@ -2,7 +2,7 @@ import React from 'react';
 import "../../asset/styles/Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { FaShoppingCart } from "react-icons/fa";
 import logo from "../../asset/images/logo.png";
 import { Link } from 'react-router-dom';
 
@@ -26,9 +26,9 @@ const Header = () => {
                     <li><a href="#Pricing">Pricing</a></li>
                     <li><Link to="/contact">Contact Us</Link></li>
                     <li><a href="#Sign In">Sign In <FontAwesomeIcon icon={faAngleDown} /></a></li>
-                    <li><a href="#Help">Help</a></li>
+                    <li><Link to="/help">Help</Link></li>
                     <div className="icon">
-                    <FontAwesomeIcon icon={faCartShopping} />
+                    <FaShoppingCart color='white' />
                     </div>
                 </ul>
             </nav>
