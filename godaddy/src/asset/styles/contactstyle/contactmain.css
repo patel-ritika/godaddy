@@ -1,0 +1,61 @@
+.contact_part{
+    margin-top: 50px;
+}
+
+.contact_part img{
+    height: 600px;
+}
+
+.right_side{
+    padding-left: 970px;
+    margin-top: -600px;
+}
+
+.left_side{
+    padding-right: 600px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.left_side h1{
+    font-size: 50px;
+}
+
+.left_side h3{
+    font-size: 30px;
+}
+
+.call{
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 320px;
+}
+
+.call h4{
+    color: #00838C;
+}
+
+.chat{
+    text-align: left;
+    padding-left: 600px;
+    margin-top: -280px;
+}
+
+.chat h3{
+    border: 1px black solid;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.call_chat{
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: 100px;
+}

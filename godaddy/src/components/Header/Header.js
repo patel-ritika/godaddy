@@ -24,7 +24,7 @@ const Header = () => {
                     <li><a href="#Marketing">Marketing <FontAwesomeIcon icon={faAngleDown} /></a></li>
                     <li><Link to="/godaddyairo">GoDaddy Airo</Link></li>
                     <li><a href="#Pricing">Pricing</a></li>
-                    <li><a href="#Contact Us">Contact Us</a></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
                     <li><a href="#Sign In">Sign In <FontAwesomeIcon icon={faAngleDown} /></a></li>
                     <li><a href="#Help">Help</a></li>
                     <div className="icon">

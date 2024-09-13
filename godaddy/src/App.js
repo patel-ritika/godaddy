@@ -6,6 +6,7 @@ import HomeMain from './components/HomeMain';
 import Footer from './components/Footer/Footer';
 import Email from './components/Email';
 import GoDaddyAiro from './components/GodaddyAiro';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<HomeMain />} />
           <Route path="/email" element={<Email />} />
           <Route path="/godaddyairo" element={<GoDaddyAiro />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
 
         <Footer/>
