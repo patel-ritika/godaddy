@@ -1,13 +1,17 @@
+/* General styles */
 *{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .header2{
     margin-top: 20px;
-    border: 1px gray solid;
     height: 70px;
-    width: 1100px;
-    margin-left: 70px;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     padding-left: 50px;
     display: flex;
@@ -18,82 +22,76 @@
     font-weight: 500;
 }
 
-.header2 button{
+.header2 input{
+    width: 800px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.sd button{
    height: 50px;
    width: 150px;
-   margin-left: 600px;
+   margin-left: auto;
    font-weight: 600;
    background-color: #09757A;
    color: white;
    border-color: gray;
-   border-radius: 10px;
+   border-radius: 5px;
 }
 
-.header2 button:hover{
+.sd{
+    margin-top: -60px;
+    padding-left: 440px;
+}
+
+.sd button:hover{
     background-color: #00838C;
 }
 
 .bt1{
-    padding-left: 1150px;
-    margin: -20px;
+    padding-left: 950px;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
 }
 
 .bt1 button{
     width: 300px;
     height: 70px;
-    margin-top: -100px;
-    padding-top: -10px;
     background-color: lightgray;
     border-color: white;
     border-radius: 10px;
 }
 
-.bt1 h3{
-    padding-right: 205px;
-    padding-top: 20px;
-    margin-top: -10px;
+.bt1 h3, .bt1 h4, .bt1 h5{
     color: gray;
-    font-family: "Playfair Display", serif;
-}
-
-.bt1 h4{
-    margin-bottom: 60px;
-    padding-bottom: -30px;
-    padding-left: 20px;
-    margin-top: -30px;
-}
-
-.bt1 h5{
-    padding-bottom: 100px;
-    margin-top: -50px;
-    padding-left: 40px;
-    color: gray;
-    font-size: 13px;
 }
 
 .bt1 button:hover{
     background-color: white;
 }
 
-.bt1 h4:hover{
-    color: #00838C;
-}
-
 .main{
-    padding-top: 80px;
-    padding-right: 400px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .main img{
-    width: 1000px;
-    border-radius: 4%;
-    height: 500px;
-    padding-left: 20px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.main{
+    padding-right: 450px;
 }
 
 .btn{
-    margin-top: -130px;
-    padding-right: 950px;
+    margin-top: -150px;
+    padding-right: 1000px;
+    text-align: center;
 }
 
 .try-domain-button{
@@ -119,47 +117,60 @@
     transition: transform 0.3s ease;
 }
 
-.btn1{
-    padding-left: 1050px;
-    margin-top: -160px;
+.blackimg{
+    padding-left: 1000px;
+    margin-top: -410px;
 }
 
-.find{
-    height: 500px;
-    width: 350px;
-    margin-top: -300px;
-    background-color: black;
+.blackimg img{
+    width: 400px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.new{
+    padding-left: 1000px;
+    margin-top: -400px;
+}
+
+.new button{
+    width: 50px;
+    border-radius: 5px;
+    height: 25px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.suggest{
+    margin-top: 150px;
     color: white;
-    border-radius: 5%;
+    padding-left: 1000px;
 }
 
-.find h2{
-    line-height: 35px;
-    font-family: "Playfair Display", serif;
+.suggest h4{
+    margin-top: -100px;
+}
+
+.suggest h3{
+    margin-top: 50px;
     font-size: 30px;
-    color: white;
-    padding-left: 90px;
 }
 
-.find button{
-    background-color: skyblue;
-    border-radius: 5%;
+.try_ai_domain{
+    margin-top: 30px;
+    padding-left: 1000px;
 }
 
-.try{
+.try_ai_domain button{
+    width: 200px;
+    height: 50px;
     background-color: white;
-    color: black;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
-    margin-top: 40px;
 }
 
-.try:hover .arrow-icon{
+.try_ai_domain:hover .arrow-icon{
     display: inline-block;
     transform: translateX(5px);
 }
@@ -170,5 +181,3 @@
     transition: transform 0.3s ease;
 }
 
-
-    
