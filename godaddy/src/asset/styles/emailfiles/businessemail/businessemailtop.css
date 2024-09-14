@@ -97,3 +97,35 @@
     font-size: 16px;
   }
   
+  /* Responsive design for mobile */
+@media (max-width: 768px) {
+  .email-container {
+    flex-direction: column; /* Stack the image and content in a column */
+    text-align: center; /* Center the text content */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .email-image img {
+    width: 100%; /* Make the image fill the container */
+    max-width: 400px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space below the image */
+  }
+
+  .email-content h2 {
+    font-size: 20px; /* Reduce font size for mobile */
+  }
+
+  .email-content p {
+    font-size: 14px; /* Reduce paragraph font size */
+  }
+
+  .pricing-button {
+    padding: 10px 15px; /* Adjust button padding */
+    font-size: 14px; /* Reduce button font size */
+  }
+
+  .rating-text {
+    font-size: 14px; /* Adjust rating text size */
+  }
+}

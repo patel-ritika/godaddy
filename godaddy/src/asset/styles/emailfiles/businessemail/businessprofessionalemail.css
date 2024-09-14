@@ -48,3 +48,27 @@
     margin-left: 10px;
   }
   
+  /* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .professional_image_section {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+      text-align: center;
+  }
+
+  .professional_image_left-content,
+  .professional_image_right-content,
+  .professional_image_right-image,
+  .professional_image_left-image {
+      width: 100%; /* Make all sections full-width on mobile */
+  }
+
+  .professional_image_right-image img,
+  .professional_image_left-image img {
+      width: 100%; /* Make images responsive to fit the container */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .professional_image_section.reverse {
+      flex-direction: column; /* Ensure reverse sections are stacked vertically on mobile */
+  }
+}

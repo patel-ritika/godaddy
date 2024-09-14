@@ -189,44 +189,41 @@
     transition: transform 0.3s ease;
 }
 
-/* Responsive layout for smaller screens */
+/* Media Queries for Mobile */
 @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
+    .header2, .sd, .bt1, .main, .btn, .blackimg, .new, .suggest, .try_ai_domain {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
-  
-    .header2,
-    .sd,
-    .bt1,
-    .main,
-    .blackimg,
-    .new,
-    .suggest,
-    .try_ai_domain {
-      padding-left: 0;
-      padding-right: 0;
-      text-align: center;
-      margin: 0 auto;
-    }
-  
+
     .header2 input {
-      width: 100%;
+        width: 100%;
+        height: 50px;
     }
-  
-    .sd button {
-      width: 100%;
+
+    .sd button, .bt1 button, .try_ai_domain button {
+        width: 100%;
+        max-width: 300px;
     }
-  
-    .bt1 button {
-      width: 100%;
-    }
-  
-    .main img {
-      max-width: 100%;
-    }
-  
+
     .blackimg img {
-      width: 100%;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
     }
-}  
+
+    .main img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .suggest h3 {
+        text-align: center;
+        font-size: 24px;
+    }
+}

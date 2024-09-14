@@ -89,3 +89,54 @@
     }
   }
   
+  /* Responsive styling */
+@media (max-width: 768px) {
+  .comparison-table {
+    font-size: 13px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto; /* Make table scrollable horizontally */
+  }
+
+  thead th {
+    padding: 10px;
+  }
+
+  tbody td {
+    padding: 10px;
+  }
+
+  /* Make row content smaller and center it */
+  .row-content {
+    font-size: 12px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Make button smaller */
+  .arrow-btn {
+    font-size: 14px;
+  }
+
+  /* Stack columns in a single column layout on mobile */
+  .center {
+    text-align: left;
+  }
+}
+
+/* Extra responsiveness for mobile devices */
+@media (max-width: 480px) {
+  .comparison-table {
+    font-size: 12px;
+  }
+
+  .row-content {
+    font-size: 11px;
+  }
+
+  .arrow-btn {
+    font-size: 12px;
+  }
+}

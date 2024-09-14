@@ -30,3 +30,32 @@
     width: 1500px;
     margin-top: 50px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Reduce heading font size */
+    .top_part h1 {
+        font-size: 30px;
+    }
+
+    /* Adjust input width and font size */
+    .top_part input {
+        width: 100%;
+        max-width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    /* Adjust button size */
+    .search_domain button {
+        height: 45px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    /* Image should be smaller on mobile */
+    .top_image img {
+        width: 100%;
+        max-width: 100%;
+    }
+}

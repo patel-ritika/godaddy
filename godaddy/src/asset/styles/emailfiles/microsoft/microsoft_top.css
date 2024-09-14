@@ -71,3 +71,35 @@
     text-decoration: none;
   }
   
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .microsoft365-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-image img {
+    width: 150px; /* Smaller image on mobile */
+    height: auto;
+    margin-bottom: 20px; /* Add some space between image and content */
+  }
+
+  .right-content {
+    width: 100%; /* Take full width on mobile */
+  }
+
+  .features-list li {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .pricing-button {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .right-content p {
+    font-size: 24px; /* Smaller font size on mobile */
+  }
+}

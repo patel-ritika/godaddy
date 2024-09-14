@@ -53,4 +53,25 @@
     margin-left: 5px;
   }
   
-  
+ /* Responsive design for mobile */
+@media (max-width: 768px) {
+  .email-option-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .email-option-img {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Set a max-width for the image */
+    margin-bottom: 20px; /* Add space below the image */
+  }
+
+  .email-option-content h1 {
+    font-size: 28px; /* Reduce the font size on mobile */
+  }
+
+  .try-domain-button {
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Smaller font size */
+  }
+} 

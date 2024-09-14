@@ -204,3 +204,53 @@
     transform: scale(1.1);
 }
 
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .work img, .banner2 img, .banner3 img, .banner4 img, .banner5 img {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .work h3, .banner2 h3, .banner3 h2, .banner4 h2, .banner5 h2 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .com, .banner2, .banner3, .banner4, .banner5 {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .real, .perfect, .suraiya, .get {
+        text-align: center;
+    }
+
+    .perfect input {
+        width: 90%;
+    }
+
+    .search {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .suraiya img {
+        width: 100%;
+    }
+
+    .suraiya h3, .suraiya h1, .suraiya p {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .get {
+        padding-left: 0;
+    }
+}

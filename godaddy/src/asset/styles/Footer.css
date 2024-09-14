@@ -223,14 +223,24 @@
     .main-footer {
         flex-direction: column;
         align-items: center;
+        padding: 10px;
     }
 
     .left-footer, .middle1, .middle2, .middle3, .right-footer, .right-footer1 {
-        padding: 10px;
         text-align: center;
+        padding: 5px;
     }
 
-    .last, .last1, .react-icon, .react-icon1, .fb, .insta, .youtube {
+    .last {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .last img {
+        width: 100px; /* Adjusted for mobile */
+    }
+
+    .react-icon, .react-icon1, .fb, .insta, .youtube {
         margin-top: 10px;
     }
 }
@@ -241,7 +251,7 @@
     }
 
     .last img {
-        width: 80px; /* Further adjust for small screens */
+        width: 80px; /* Further adjust for smaller screens */
     }
 
     ul li {

@@ -59,3 +59,53 @@
     width: 1000px;
     margin-left: 100px;
 }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .contact_part img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .right_side {
+      padding-left: 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .left_side {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .left_side h1 {
+      font-size: 30px;
+    }
+  
+    .left_side h3 {
+      font-size: 24px;
+    }
+  
+    .call_chat {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-left: 0;
+      padding: 20px;
+    }
+  
+    .call,
+    .chat {
+      padding: 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .chat h3 {
+      width: 150px;
+      height: 40px;
+      padding-top: 10px;
+      margin-top: 20px;
+    }
+  }
