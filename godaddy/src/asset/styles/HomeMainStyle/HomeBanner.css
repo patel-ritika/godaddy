@@ -90,7 +90,7 @@
 }
 
 .banner5 img{
-    width: 850px;
+    width: 1350px;
     padding-left: 550px;
     margin-top: -390px;
 }
@@ -203,3 +203,4 @@
 .get button:hover{
     transform: scale(1.1);
 }
+

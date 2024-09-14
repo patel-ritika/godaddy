@@ -1,6 +1,6 @@
 .main-footer{
     background-color: #111111;
-    height: 720px;
+    height: 800px;
     cursor: pointer;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .middle1{
-    margin-top: -440px;
+    margin-top: -400px;
     padding-right: 590px;
     text-align: left;
     padding-left: 370px;
@@ -50,7 +50,7 @@
 }
 
 .middle2{
-    margin-top: -210px;
+    margin-top:-180px;
     padding-right: 20px;
     text-align: left;
     padding-left: 600px;
@@ -58,6 +58,7 @@
 
 .middle2 h3{
     color: white;
+    
 }
 
 .middle2 ul li{
@@ -75,7 +76,7 @@
 .middle3{
     text-align: left;
     padding-left: 850px;
-    margin-top: -380px;
+    margin-top: -360px;
 }
 
 .middle3 h3{
@@ -97,7 +98,7 @@
 .right-footer{
     text-align: left;
     padding-left: 1100px;
-    margin-top: -170px;
+    margin-top: -150px;
 }
 
 .right-footer h3{
@@ -118,7 +119,7 @@
 
 .right-footer1{
     padding-left: 1150px;
-    margin-top: -169px;
+    margin-top: -159px;
 }
 
 .right-footer1 h3{
@@ -145,7 +146,7 @@
 .last h4{
     color: white;
     padding-left: 100px;
-    margin-top: -35px;
+    margin-top: -145px;
 }
 
 .react-icon{
@@ -160,7 +161,7 @@
 
 .last1{
     color: white;
-    margin-top: -47px;
+    margin-top: -100px;
     padding-right: 300px;
 }
 
@@ -217,3 +218,37 @@
     padding-right: 650px;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+    .main-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-footer, .middle1, .middle2, .middle3, .right-footer, .right-footer1 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .last, .last1, .react-icon, .react-icon1, .fb, .insta, .youtube {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-footer {
+        padding: 10px;
+    }
+
+    .last img {
+        width: 80px; /* Further adjust for small screens */
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+
+    .horizontal-line {
+        margin: 15px 0;
+    }
+}

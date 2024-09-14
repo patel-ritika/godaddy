@@ -64,3 +64,23 @@
   .fivestar h1{
     color: black;
   }
+
+  /* Media query for responsiveness */
+@media (max-width: 768px) {
+  .box-slider-container {
+      max-width: 100%;
+  }
+
+  .box-slider-button {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .prev {
+      left: 5px;
+  }
+
+  .next {
+      right: 5px;
+  }
+}

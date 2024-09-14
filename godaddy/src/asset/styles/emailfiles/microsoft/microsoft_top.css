@@ -7,7 +7,7 @@
   
   .left-image img {
     height: 400px; /* Keeps the aspect ratio */
-    width: 90%; /* Adjust width as necessary */
+    width: 200px; /* Adjust width as necessary */
     border-radius: 20px;
   }
   
